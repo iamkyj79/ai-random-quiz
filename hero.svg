@@ -1,1 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1355 343" width="1355" height="343"><rect width="1355" height="343" fill="#eefbf4"/><image href="/hero-cute.webp" x="0" y="0" width="1355" height="343" preserveAspectRatio="xMidYMid slice"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1355 343" width="1355" height="343">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#eafbf7"/><stop offset=".55" stop-color="#eef9ff"/><stop offset="1" stop-color="#fff7d9"/></linearGradient>
+  <linearGradient id="hill" x1="0" x2="1"><stop stop-color="#c8f1d6"/><stop offset="1" stop-color="#9fe3be"/></linearGradient>
+</defs>
+<rect width="1355" height="343" rx="28" fill="url(#bg)"/>
+<g opacity=".9" fill="#fff"><ellipse cx="210" cy="70" rx="60" ry="23"/><ellipse cx="300" cy="52" rx="38" ry="16"/><ellipse cx="690" cy="67" rx="52" ry="20"/></g>
+<g fill="url(#hill)"><ellipse cx="110" cy="345" rx="230" ry="88"/><ellipse cx="350" cy="350" rx="240" ry="88"/><ellipse cx="650" cy="350" rx="260" ry="94"/></g>
+<g font-family="Arial, sans-serif"><text x="70" y="92" font-size="31" font-weight="700" fill="#14956a">오늘도, 더 성장하는 나 🌿</text><text x="70" y="158" font-size="54" font-weight="800" fill="#132238">중요 개념을 함께</text><text x="70" y="220" font-size="54" font-weight="800" fill="#14956a">완성해가요!</text><text x="70" y="266" font-size="22" fill="#6e7e92">차근차근 쌓아가면, 자격증은 분명히 가까워질 거예요.</text></g>
+<g transform="translate(900 30)">
+  <circle cx="168" cy="105" r="77" fill="#ffd8c4"/>
+  <path d="M99 94c4-62 43-94 86-86 44 8 73 45 60 94-20-18-42-27-70-25-17 13-43 20-76 17z" fill="#4a342f"/>
+  <circle cx="143" cy="111" r="9" fill="#352825"/><circle cx="194" cy="111" r="9" fill="#352825"/>
+  <circle cx="146" cy="108" r="3" fill="#fff"/><circle cx="197" cy="108" r="3" fill="#fff"/>
+  <path d="M150 145q18 14 36 0" fill="none" stroke="#e86e72" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="124" cy="136" r="11" fill="#ff9ea2" opacity=".4"/><circle cx="213" cy="136" r="11" fill="#ff9ea2" opacity=".4"/>
+  <path d="M118 180q50-24 101 0l34 112H84z" fill="#34b879"/>
+  <path d="M145 190l25 34 27-34" fill="none" stroke="#fff" stroke-width="7"/>
+  <rect x="50" y="231" width="130" height="73" rx="12" fill="#dbe8f5" transform="rotate(-4)"/>
+  <circle cx="114" cy="267" r="10" fill="#34b879"/>
+  <g transform="translate(270 265)"><ellipse cx="0" cy="0" rx="44" ry="27" fill="#fffaf2"/><circle cx="-20" cy="-22" r="18" fill="#fffaf2"/><circle cx="20" cy="-22" r="18" fill="#fffaf2"/><path d="M-32-31l-6-18 18 13M32-31l6-18-18 13" fill="#f3b46f"/><circle cx="-9" cy="-22" r="3"/><circle cx="9" cy="-22" r="3"/><path d="M-4-12q4 5 8 0" fill="none" stroke="#d27c64" stroke-width="2"/></g>
+  <g transform="translate(338 52)"><rect x="0" y="0" width="112" height="34" rx="10" fill="#58b9df"/><rect x="0" y="40" width="112" height="34" rx="10" fill="#43b47e"/><rect x="0" y="80" width="112" height="34" rx="10" fill="#79c36a"/><text x="56" y="23" text-anchor="middle" fill="white" font-size="18" font-weight="700">AI</text><text x="56" y="63" text-anchor="middle" fill="white" font-size="18" font-weight="700">DATA</text><text x="56" y="103" text-anchor="middle" fill="white" font-size="18" font-weight="700">GROWTH</text></g>
+</g>
+<g fill="#67c98e" opacity=".9"><ellipse cx="790" cy="270" rx="16" ry="42" transform="rotate(-34 790 270)"/><ellipse cx="835" cy="252" rx="14" ry="36" transform="rotate(35 835 252)"/><ellipse cx="1285" cy="76" rx="14" ry="34" transform="rotate(38 1285 76)"/></g>
+<g fill="#ffd55f"><path d="M1195 58l7 18 18 7-18 7-7 18-7-18-18-7 18-7z"/><path d="M1260 135l5 13 13 5-13 5-5 13-5-13-13-5 13-5z"/></g>
+</svg>
