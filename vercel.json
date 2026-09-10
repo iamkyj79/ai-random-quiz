@@ -3,15 +3,10 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
-    { "source": "/hero-cute.webp", "destination": "/hero-cute-v2.svg" }
+    { "source": "/hero-cute.webp", "destination": "/hero.svg" },
+    { "source": "/hero-cute-v2.svg", "destination": "/hero.svg" }
   ],
   "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" }
-      ]
-    },
     {
       "source": "/index.html",
       "headers": [
@@ -25,6 +20,13 @@
       ]
     },
     {
+      "source": "/hero.svg",
+      "headers": [
+        { "key": "Content-Type", "value": "image/svg+xml; charset=utf-8" },
+        { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" }
+      ]
+    },
+    {
       "source": "/hero-cute.webp",
       "headers": [
         { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" }
@@ -33,7 +35,7 @@
     {
       "source": "/hero-cute-v2.svg",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" }
       ]
     }
   ]
