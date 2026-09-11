@@ -1,4 +1,4 @@
-const CACHE='ai-cert-v12-approved';
+const CACHE='ai-cert-v13-short-url';
 const CORE=['/','/index.html','/manifest.webmanifest','/icon-192.svg','/icon-512.svg','/hero-reference-v5.webp','/hero-mobile-v5.webp','/hero-cute-v2.svg','/hero-approved-v12.webp','/hero-mobile-approved-v12.webp','/q1.js','/q2.js','/q3.js','/q4.js','/q5.js','/q6.js','/q7.js','/q8.js'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
