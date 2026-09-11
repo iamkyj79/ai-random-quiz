@@ -1,0 +1,1 @@
+Hero asset update pending in same deployment.
